@@ -1,0 +1,28 @@
+h1 {
+  padding: 20px;
+  border: groove lightgrey;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  background-color: #16283c;
+  box-shadow: 10px 10px 5px lightgray;
+}
+
+.struktur img {
+  border: groove gray;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 10px 10px 5px lightgrey;
+  padding: 15px;
+}
+
+.struktur {
+  padding-top: 5rem;
+}
+
+img:hover{
+  transform: translateY(7px)
+}

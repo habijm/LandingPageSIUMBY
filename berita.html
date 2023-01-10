@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Berita - Sistem Informasi</title>
+  <link rel="icon" href="img/Logo-UMBY.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="Css/style1.css">
+
+  <link rel="stylesheet" href="Css/berita.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <style>
+    body {
+      font-family: 'Poppins';
+    }
+  </style>
+</head>
+
+<body>
+  <!--Awal Navbar-->
+  <nav class="navbar navbar-expand-lg ms-auto fixed-top">
+    <div class="container-fluid">
+      <img class="icon" width="32px" height="30px" src="img/umbywhite.png" alt="icon" style="margin: 10px;">
+      <div style="border-left:1px solid rgb(255, 255, 255); height:24px"></div>
+      <a class="navbar-brand text-white fw-bold ms-2" href="beranda.html">Sistem Informasi</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav  mb-lg-1 ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="beranda.html" ;">BERANDA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="tentangprodi.html">TENTANG PRODI</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="beranda.html">PROFIL</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="Profil/visimisi.html">Visi & Misi</a></li>
+              <li><a class="dropdown-item" href="Profil/struktur.html">Struktur</a></li>
+              <li><a class="dropdown-item" href="Profil/pimpinan.html">Pimpinan</a> </li>
+              <li><a class="dropdown-item" href="Profil/dosen.html">Dosen</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link aktif" href="berita.html">BERITA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="kontak.html">KONTAK</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--Akhir Navbar-->
+  <div class="row">
+    <img src="Img/Carousel-Berita.png" alt="">
+  </div>
+
+  <!-- Awal Berita Utama-->
+  <!--Berita 2-->
+  <div style="text-align: center;margin-bottom: 0px;margin-top: -16px;">
+    <h2 class="divider-style" style="margin-bottom: 0px;margin-top: 33px;"><span><span
+          style="color: rgb(2, 46, 91);">Berita Utama</span></span></h2>
+    <div class="row">
+      <div class="col">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel-2" style="height: 600px;">
+          <div class="carousel-inner h-100">
+            <div class="carousel-item active h-100"><img class="w-100 d-block position-absolute h-100 fit-cover"
+                src="Img/Mahasiswa-Informatika-Magang-di-PT-LAPI-ITB.jpg" alt="Slide Image" style="z-index: -1;">
+              <div class="container d-flex flex-column justify-content-center h-100">
+                <div class="row">
+                  <div class="col-md-6 col-xl-4 offset-md-2">
+                    <div>
+                      <div class="carousel-caption d-none d-md-block">
+                        <a class="nav-link"
+                          href="https://fti.mercubuana-yogya.ac.id/jadi-peserta-program-mbkm-di-pt-lapi-itb-mahasiswa-umby-bilang-begini">
+
+                          <h5 class="text-info">Jadi Peserta Program MBKM di PT LAPI ITB, Mahasiswa
+                            UMBY
+                            Bilang Begini</h5>
+                        </a>
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item h-100"><img class="w-100 d-block position-absolute h-100 fit-cover"
+                src="Img/HMPSSI-Berbagi-Takjil-2022.jpg" alt="Slide Image" style="z-index: -1;">
+              <div class="container d-flex flex-column justify-content-center h-100">
+                <div>
+                  <div class="carousel-caption d-none d-md-block">
+                    <a class="nav-link " href="https://fti.mercubuana-yogya.ac.id/hmpssi-umby-bagi-takjil-ramadhan">
+                      <h5 class="text-info">HMPSSI UMBY Bagi Takjil Ramadhan</h5>
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item h-100"><img class="w-100 d-block position-absolute h-100 fit-cover"
+                src="Img/Pelatihan-Video-Editing-Tim-PkM-FTI-UMBY.jpeg" alt="Slide Image" style="z-index: -1;">
+              <div class="container d-flex flex-column justify-content-center h-100">
+                <div class="carousel-caption d-none d-md-block">
+                  <a class="nav-link"
+                    href="https://fti.mercubuana-yogya.ac.id/tim-pkm-umby-ajari-guru-slb-muhammadiyah-gamping-editing-video">
+                    <h5 class="text-info">Tim PkM UMBY Ajari Guru SLB Muhammadiyah Gamping
+                      Editing
+                      Video</h5>
+                  </a>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div><a class="carousel-control-prev" href="#carousel-2" role="button" data-bs-slide="prev"><span
+                class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><a
+              class="carousel-control-next" href="#carousel-2" role="button" data-bs-slide="next"><span
+                class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a></div>
+          <ol class="carousel-indicators">
+            <li data-bs-target="#carousel-2" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carousel-2" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carousel-2" data-bs-slide-to="2"></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="text-align: center;margin-top: -56px;">
+    <h2 class="divider-style"><span><span style="color: rgb(2, 46, 91);">Berita Lainnya</span></span></h2>
+  </div>
+  <div class="article-list">
+    <div class="container">
+      <div class="intro"></div>
+      <div class="row articles">
+        <div class="col-sm-6 col-md-4 item">
+          <div class="zoomin frame" style="width:100%;height:236px;"><img style="width:100%;height:236px;"
+              src="Img/Webinar-HMPS-SI-Metodologi-Penelitian.jpeg"></div>
+          <h3 class="name"><a
+              href="https://fti.mercubuana-yogya.ac.id/sistem-informasi-umby-gelar-webinar-metodologi-penelitian">Sistem
+              Informasi UMBY Gelar Webinar Metodologi Penelitian</a><br></h3><a class=" " href="#"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 item">
+          <div class="zoomin frame" style="width:100%;height:236px;"><img style="width:100%;height:236px;"
+              src="Img/Webinar-CNN-eCampuz-FTI-UMBY.jpeg"></div>
+          <h3 class="name"><a
+              href="https://fti.mercubuana-yogya.ac.id/kolaborasi-webinar-ecampuz-dan-fti-umby-bahas-neural-network">Kolaborasi
+              Webinar eCampuz dan FTI UMBY bahas Neural Network</a><br></h3><a class="action" href="#"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 item">
+          <div class="zoomin frame" style="width:100%;height:236px;"><img style="width:100%;height:236px;"
+              src="Img/hmpssi-webinar-kesehatan-mental.jpg"></div>
+          <h3 class="name"><a
+              href="https://fti.mercubuana-yogya.ac.id/hmps-sistem-informasi-umby-adakan-webinar-kesehatan-mental">HMPS
+              Sistem Informasi UMBY Adakan Webinar Kesehatan Mental</a><br></h3><a class="action" href="#"></a>
+        </div>
+      </div>
+      <div class="row articles" style="margin-top: -125px;">
+        <div class="col-sm-6 col-md-4 item">
+          <div class="zoomin frame" style="width:100%;height:236px;"><img style="width:100%;height:236px;"
+              src="img/Webinar-HMPSSI-Digital-Marketing.jpeg"></div>
+          <h3 class="name"><a
+              href="https://fti.mercubuana-yogya.ac.id/hmps-si-umby-adakan-webinar-strategi-digital-marketing">HMPS SI
+              UMBY Adakan Webinar Strategi Digital Marketing</a><br></h3><a class="action" href="#"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 item">
+          <div class="zoomin frame" style="width:100%;height:236px;"><img style="width:100%;height:236px;"
+              src="Img/Workshop-HMPS-SI-UMBY-Web-Development.jpeg"></div>
+          <h3 class="name"><a
+              href="https://fti.mercubuana-yogya.ac.id/hmps-si-umby-selenggarakan-workshop-web-development">HMPS SI UMBY
+              Selenggarakan Workshop Web Development</a><br></h3><a class="action" href="#"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 item">
+          <div class="zoomin frame" style="width:100%;height:236px;"><img style="width:100%;height:236px;"
+              src="Img/hmps-si-webinar-perencanaan-karir.jpeg"></div>
+          <h3 class="name"><a
+              href="https://fti.mercubuana-yogya.ac.id/hmps-sistem-informasi-umby-adakan-webinar-perencanaan-karir">HMPS
+              Sistem Informasi UMBY Adakan Webinar Perencanaan Karir</a><br></h3><a class="action" href="#"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div style="text-align:center;"></div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col" style="margin-top: -130px;margin-bottom: 14px;padding-top: 20px;">
+      <div><a class="btn btn-outline-primary" role="button" href="#" style="margin-right: 2px;margin-left: 482px;">←
+          Back</a><a class="btn btn-outline-primary float-end" role="button" href="#" style="margin-right: 482px;">Next
+          →</a></div>
+      <div style="text-align:center;">
+        <h2 class="divider-style"><span><span style="color: rgb(2, 46, 91);">Informasi Akademik</span></span></h2>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div style="text-align:center;">
+          <h2 class="divider-style"><span><span style="color: rgb(81, 2, 2);">Update</span></span></h2>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div style="text-align:center;">
+          <h2 class="divider-style"><span><span style="color: rgb(81, 2, 2);">Lowongan</span></span></h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="alert alert-success" role="alert"><span><a
+              href="https://fti.mercubuana-yogya.ac.id/pelaksanaan-ujian-akhir-semester-gasal-2022-2023">Pelaksanaan
+              Ujian Akhir Semester Gasal 2022/2023</a><br></span></div>
+        <div class="alert alert-success" role="alert"><span><a
+              href="https://fti.mercubuana-yogya.ac.id/pendaftaran-ujian-pendadaran-prodi-sistem-informasi-semester-gasal-2022-2023">Pendaftaran
+              Ujian Pendadaran Prodi Sistem Informasi Semester Gasal 2022/2023</a><br></span></div>
+        <div class="alert alert-success" role="alert"><span><a
+              href="https://fti.mercubuana-yogya.ac.id/pelaksanaan-ujian-akhir-semester-gasal-2022-2023">Pelaksanaan
+              Ujian Akhir Semester Gasal 2022/2023</a><br></span></div>
+      </div>
+      <div class="col-md-6">
+        <div class="alert alert-success" role="alert"><span><a
+              href="https://fti.mercubuana-yogya.ac.id/lowongan-kerja-medion-2">Lowongan Kerja Medion</a><br></span>
+        </div>
+        <div class="alert alert-success" role="alert"><span><a
+              href="https://fti.mercubuana-yogya.ac.id/lowongan-kerja-zettabyte">Lowongan Kerja Zettabyte</a><br></span>
+        </div>
+        <div class="alert alert-success" role="alert"><span><a
+              href="https://fti.mercubuana-yogya.ac.id/lowongan-magang-zettabyte">Lowongan Magang
+              Zettabyte</a><br></span></div>
+        <div class="alert alert-success" role="alert"><span><a
+              href="https://fti.mercubuana-yogya.ac.id/open-recruitment-inkubator-bisnis-fullstack-umby">Open
+              Recruitment Inkubator Bisnis Fullstack UMBY</a><br></span></div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--Awal Footer-->
+
+  <footer style=" background-color: #16283c;
+  padding-bottom: 1rem;">
+    <ul class="nav justify-content-center pb-2 mb-2">
+      <li class="nav-item"><a href="https://mercubuana-yogya.ac.id/" class="nav-link">UMBY</a></li>
+      <li class="nav-item"><a href="https://fti.mercubuana-yogya.ac.id/" class="nav-link">FTI</a></li>
+      <li class="nav-item"><a href="https://sia.mercubuana-yogya.ac.id/gate.php/login" class="nav-link">SIA</a></li>
+      <li class="nav-item"><a href="https://elearning.mercubuana-yogya.ac.id/" class="nav-link">E-LEARNING</a></li>
+    </ul>
+    <hr>
+    <p class="text-center text-white">&copy; 2021 FTI UMBY, All rights reserved. | Developed by AYC & DnD</p>
+  </footer>
+  <!--Akhir Footer-->
+
+
+
+  <!--Link Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <!-- <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/bs-init.js"></script> -->
+</body>
+
+</html>

@@ -1,0 +1,189 @@
+.article-list {
+  color: #313437;
+  background-color: #fff;
+}
+
+.article-list p {
+  color: #000000;
+}
+
+.article-list h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+}
+
+@media (max-width: 767px) {
+  .article-list h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.article-list .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.article-list .intro p {
+  margin-bottom: 0;
+}
+
+.article-list .articles {
+  padding-bottom: 40px;
+}
+
+.article-list .item {
+  padding-top: 50px;
+  min-height: 425px;
+  text-align: center;
+}
+
+.article-list .item .name {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 20px;
+  color: inherit;
+}
+
+.article-list .item .description {
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.article-list .item .action {
+  font-size: 24px;
+  width: 24px;
+  margin: 22px auto 0;
+  line-height: 1;
+  display: block;
+
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+}
+
+.frame {
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  border: 1px solid rgb(255, 0, 0);
+}
+
+.zoomin img {
+  height: 200px;
+  width: 200px;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.zoomin img:hover {
+  /*width: 300px;*/
+  /*height: 300px;*/
+  transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -webkit-transition: scale(1.5);
+}
+
+div.jumbotron.carousel-hero {
+  color: #fff;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 0;
+}
+
+div.jumbotron.hero-nature {
+  background-image: url("../../assets/img/architect-at-the-construction.jpg");
+}
+
+div.jumbotron.hero-photography {
+  background-image: url("../../assets/img/architects-and-worker.jpg");
+}
+
+div.jumbotron.hero-technology {
+  background-image: url("../../assets/img/young-college-students.jpg");
+}
+
+h1.hero-title,
+h2.hero-title,
+h3.hero-title {
+  text-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+
+p.hero-subtitle {
+  max-width: 600px;
+  margin: 25px auto;
+  padding: 10px 15px;
+  color: #fff;
+}
+
+.plat {
+  border-radius: 0px;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+  box-shadow: 0 0 0 0 #048f83 !important;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #016090;
+  border-color: #016090;
+}
+
+.btn.btn-primary {
+  background-color: #048f83 !important;
+  border-color: #048f83 !important;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+span {
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+.divider-style {
+  margin-top: 70px;
+  position: relative;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.divider-style span {
+  background: #fff;
+  padding: 0 20px;
+  position: relative;
+  z-index: 5;
+}
+
+.divider-style:before {
+  content: "";
+  display: block;
+  border-top: solid 1px black;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+
+.fit-cover {
+  object-fit: cover;
+}
